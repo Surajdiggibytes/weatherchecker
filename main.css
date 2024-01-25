@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.title{
+    border: 1px solid transparent;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(41, 39, 39);
+    /* background-image: url("/images/night.png"); rgb(10, 91, 231) */
+}
+
+.title h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 1%;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+
+.search{
+    padding-right: 130px;
+    display: inline-flex;
+}
+
+.search-bar{
+    padding-top: 30px;
+    padding-right: 120px;
+    padding-left: 12px;
+    padding-bottom: 14px;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    margin-left: 25px;
+    font-size: 18px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 2px solid transparent;
+    display: flex;
+}
+.search-icn{
+    padding-right: 18px;
+    padding-left: 10px;
+    padding-top: 17px;
+    padding-bottom: 13px;
+    margin-top: 42px;
+    margin-bottom: 20px;
+    margin-left: 1px;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+    border: 1px solid transparent;
+}
+
+.search-icn:hover{
+    cursor: pointer;
+}
+.main{
+    background:linear-gradient(rgb(10, 91, 231),rgb(155, 226, 236));
+    width: 100%;
+    height: 600px;
+    border: 0.1px solid black;
+    display: flex;
+}
+
+.forecast{
+    width: 30px;
+    height: 200px;
+    border: 2px solid transparent;
+    margin-top: 3%;
+    margin-left: 21%;
+    padding-right: 20%;
+    padding-bottom: 20%;
+    /* background-color: whitesmoke;  */
+    border-radius: 8px;
+    
+}
+
+#weather-icn{
+    margin-left: 30px;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+.detail{
+    border: 2px solid transparent;
+    padding-right: 26%;
+    margin-bottom: 10%;
+    margin-top: 3%;
+    border-radius: 8px;
+}
+.location{
+    display: flex;
+}
+
+.loc{
+    padding: 20px;
+    margin-top: 30%;
+    color: white;
+    
+}
+
+#loc{
+    font-size: 20px;
+}
+
+.loc-icn{
+    padding-left: 17px;
+    padding-right: 1px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-left: 85%;
+    margin-top: 32%;
+}
+
+.loc-icn i{
+    width: 20px;
+    height: 30px;
+}
+
+.temp{
+    margin-top: 20px;
+    margin-left: 105%;
+    margin-right: -130px;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
